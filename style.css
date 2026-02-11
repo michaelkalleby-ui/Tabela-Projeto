@@ -1,0 +1,107 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+table {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #4caf50;
+}
+
+th {
+  padding: 15px 10px;
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+
+th:hover {
+  background-color: #45a049;
+  cursor: pointer;
+}
+
+td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+td:hover {
+  background-color: #45a049;
+  cursor: pointer;
+}
+
+tbody tr:hover {
+  background-color: rgb(86, 191, 223) !important;
+  cursor: pointer;
+}
+
+.row-highlight {
+  background-color: rgb(86, 191, 223) !important;
+}
+
+.column-highlight {
+  background-color: rgb(86, 191, 223) !important;
+}
+
+button#listaBtn {
+  display: block;
+  margin: 30px auto;
+  padding: 15px 30px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button#listaBtn:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+  table {
+    width: 95%;
+  }
+
+  th,
+  td {
+    padding: 10px 5px;
+  }
+
+  button#listaBtn {
+    width: 80%;
+    max-width: 300px;
+  }
+}

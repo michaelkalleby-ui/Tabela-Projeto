@@ -1,0 +1,4 @@
+- [x] Update index.html: Add a modern header with title "Lista de Compras", convert h1 to button element, include Google Fonts link for Roboto.
+- [x] Update style.css: Apply modern styling including better colors, shadows, spacing, responsive design for table and button.
+- [x] Test: Open index.html in browser to verify modern styling and button functionality.
+- [x] Restore table hover effect: Add JavaScript for column highlight (radar effect) and update CSS for row and cell hover colors.
